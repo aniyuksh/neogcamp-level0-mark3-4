@@ -3,7 +3,7 @@ body{
   font-family: 'Zilla Slab', serif;
 }
 :root{
-  --primary-color: #44403C;
+  --primary-color: #2B6CB0;
 } 
 
 .container-center{
@@ -17,3 +17,26 @@ body{
   padding: 0rem 1rem;
 }
 
+/* Links */
+
+.link-primary{
+  background-color: var(--primary-color);
+  padding: 0.2rem 1rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 1rem;
+}
+
+.link-secondary{
+  border: var(--primary-color) 1px solid;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  padding: 0.2rem 1rem;
+  color: var(--primary-color);
+}
+
+/* hr */
+
+hr{
+  margin: 1.2rem 0rem;
+}
