@@ -25,8 +25,8 @@
   <p class="container-text">This is the centered container</p>
   <hr>
   <h2>@links</h2>
-  <a href="/" class="link-primary">Primary link</a>
-  <a href="/" class="link-secondary">Secondary link</a>
+  <a href="/" class="link link-primary">Primary link</a>
+  <a href="/" class="link link-secondary">Secondary link</a>
   <hr>
   <h2>@lists</h2>
   <h3>Unordered lists</h3>
@@ -48,13 +48,15 @@
     <li>bread</li>
   </ol>
   <hr>
-  <h2>@nav</h2>
-  <div>Logo</div>
-  <ul>
-    <a href="/"><li>Product</li></a>
-    <a href="/"><li>About</li></a>
-    <a href="/"><li>Contact</li></a>
-  </ul>
+  <h2 class="navbar">@nav</h2>
+  <nav class="navigation container">
+    <div class="nav-logo">Logo</div>
+    <ul class="lists-unordered nav-items">
+      <li class="lists-unordered-inline"><a class ="link link-active" href="/"> Projects</a></li>
+      <li class="lists-unordered-inline"><a  class = "link" href="/"> Blogs</a></li>
+      <li class="lists-unordered-inline"><a class = "link" href="/">Address</a></li>
+    </ul>
+  </nav>
   <hr>
   <h2>@header</h2>
   <img src="/images/image.svg">
