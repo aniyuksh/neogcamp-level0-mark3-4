@@ -30,7 +30,6 @@ body{
 }
 .link-primary{
   background-color: var(--primary-color);
-  
   color: white;
   text-decoration: none;
   border-radius: 1rem;
@@ -74,7 +73,7 @@ hr{
   background: var(--primary-color);
   color: white;
   border-bottom-left-radius: 0.75rem;
-  border-bottom-right-radius: 0.75rem;
+  /* border-bottom-right-radius: 0.75rem; */
 }
 
 .navigation .link{
@@ -129,3 +128,27 @@ hr{
  .section-off-white{
   background-color: var(--off-white-color);
  }
+
+ /* footer */
+
+.footer{
+  text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1.5rem 0rem;
+  border-top-right-radius: 0.75rem;
+ 
+}
+
+.footer .link{
+  color: white;
+}
+
+.footer .footer-header{
+  font-size : 20px;
+}
+
+.footer ul{
+  padding-inline-start: 0px;
+}
+
