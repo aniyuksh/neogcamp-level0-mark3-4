@@ -4,11 +4,16 @@ body{
 }
 :root{
   --primary-color: #2B6CB0;
+  --orange-color : #F6AD55;
+  --off-white-color : #f3f4f6;
 } 
 
+.container{
+  padding: 0rem 1rem;
+}
+
 .container-center{
-  
-  max-width: 200px;
+  max-width: 600px;
   margin: auto;
   text-align: center;
 }
@@ -92,3 +97,35 @@ hr{
 .navigation .link-active{
   font-weight: bold;
 }
+
+/* header */
+
+.header{
+  padding: 2rem 0;
+}
+
+.header .header-image{
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.header .header-heading{
+  text-align: center;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.header .header-text .header-text-part{
+  color: #F6AD55;
+}
+
+/* section */
+
+ .section{
+  padding: 2rem 0rem; 
+ }
+
+ .section-off-white{
+  background-color: var(--off-white-color);
+ }
