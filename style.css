@@ -8,6 +8,10 @@ body{
   --off-white-color : #f3f4f6;
 } 
 
+body{
+  margin: 0;
+}
+
 .container{
   padding: 0rem 1rem;
 }
@@ -26,27 +30,32 @@ body{
 
 .link{
   text-decoration: none;
-  padding: 0.2rem 1rem;
+  padding: .2rem 1rem;
+  
 }
 .link-primary{
   background-color: var(--primary-color);
   color: white;
   text-decoration: none;
   border-radius: 1rem;
+  
 }
 
 .link-secondary{
   border: var(--primary-color) 1px solid;
   border-radius: 0.5rem;
   text-decoration: none;
-  
+  /* padding-top: 0.5rem; */
   color: var(--primary-color);
+  
 }
 
 /* hr */
 
 hr{
-  margin: 1.2rem 0rem;
+  /* margin: 1.2rem 0rem; */
+  max-width: 550px;
+  margin: 2rem auto;
 }
 
 /* lists */
@@ -89,7 +98,7 @@ hr{
 }
 
 .navigation .nav-logo{
-  font-size: 1.1rem;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -127,11 +136,15 @@ hr{
 
  .section-off-white{
   background-color: var(--off-white-color);
+  max-width: 550px;
+  margin: auto;
+  border-radius: 1rem;
  }
 
  /* footer */
 
 .footer{
+  /* min-height: 20vh; */
   text-align: center;
   background-color: var(--primary-color);
   color: white;
@@ -146,9 +159,18 @@ hr{
 
 .footer .footer-header{
   font-size : 20px;
+  font-weight: bold;
 }
 
 .footer ul{
   padding-inline-start: 0px;
 }
 
+/* Project-page-heading */
+
+.project-heading{
+  padding-top: 4em;
+  color: var(--primary-color);
+}
+
+/* Blog-page-heading */
