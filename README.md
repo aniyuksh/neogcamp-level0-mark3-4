@@ -1,0 +1,2 @@
+This is my first attempt making a portfolio website using HTML5 & CSS3.
+First I made the component library, basically created a structure of the whole website and then created the actual website by just picking the components directly.
